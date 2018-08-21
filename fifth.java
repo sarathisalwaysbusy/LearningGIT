@@ -15,7 +15,12 @@ A.ajax("${siteconfig.submitReconciliationFormData}", {
 		success : function(data) {
 		A.$(".loader").hide();
 		alert("Data saved!");
+<<<<<<< HEAD
 		A.$("#submitButton").click();
+=======
+		//A.$("#submitButton").click();
+		A.$(lolololol);
+>>>>>>> 3
 
 		A.$("[data-action='a-popover-close']").click();
 		},
